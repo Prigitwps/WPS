@@ -1,0 +1,43 @@
+version: 0.2
+phases:
+  install:
+    on-failure: ABORT
+    runtime-versions:
+      python: 3.x
+    commands:
+      - EXECUTION_DATE_TIME=`date '+%F_%H:%M:%S'`
+      - OUTPUT=$GITHUB_ACTOR_$GITHUB_JOB_$AWS_REGION_$CODEBUILD_BUILD_NUMBER_$EXECUTION_DATE_TIME/
+      - mkdir $OUTPUT
+      - TEMP_AWS_ACCESS_KEY_ID=$(aws ssm get-parameter --region us-west-2 --with-decryption --name IAM_KEY --output text --query Parameter.Value)
+      - TEMP_AWS_SECRET_ACCESS_KEY=$(aws ssm get-parameter --region us-west-2 --with-decryption --name IAM_ACCESS_KEY --output text --query Parameter.Value)
+      - export AWS_ACCESS_KEY_ID=$TEMP_AWS_ACCESS_KEY_ID
+      - export AWS_SECRET_ACCESS_KEY=$TEMP_AWS_SECRET_ACCESS_KEY
+      - aws sts get-caller-identity
+  pre_build:
+    on-failure: ABORT
+    commands:
+      - CREDS=$(aws sts assume-role --role-arn arn:aws:iam::313421146937:role/wps-role-oes-sa-sts-assume --role-session-name "$AWS_REGION-$(date +%Y-%m-%d-%H-%M-%S)" --duration-seconds 15000 --out json)
+      - export AWS_ACCESS_KEY_ID=$(echo $CREDS | jq -r '.Credentials.AccessKeyId')
+      - export AWS_SECRET_ACCESS_KEY=$(echo $CREDS | jq -r '.Credentials.SecretAccessKey')
+      - export AWS_SESSION_TOKEN=$(echo $CREDS | jq -r '.Credentials.SessionToken')
+      - export AWS_REGION=us-west-2
+      - aws sts get-caller-identity
+  build:
+    on-failure: ABORT
+    commands:
+      - apt update -y && apt install ghostscript -y && apt install imagemagick -y
+      - cp imagemagick/policy.xml /etc/ImageMagick-6/policy.xml
+      - pip install boto3 pytz python-dateutil pdfplumber
+      - pip install pdfminer openpyxl lxml selenium
+      - pip install chromedriver_autoinstaller geckodriver-autoinstaller
+      - pip install imutils opencv-python matplotlib numpy scikit-image
+      - cd oesLibraryPackage
+      - python setup_lean.py install --user clean
+      - cd ..
+      - echo $SCRIPT_NAME $OUTPUT
+      - eval $SCRIPT_NAME $OUTPUT
+
+  post_build:
+    on-failure: ABORT
+    commands:
+      - echo Tests completed on $EXECUTION_DATE_TIME

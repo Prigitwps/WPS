@@ -1,0 +1,1686 @@
+sheets = {   'CAPs Sample': [   {   'administrationdate': '0 years 0 months 0 days',
+                           'assessmentform': 'CAPs Record Form (Ages 7-18)',
+                           'assessmenttype': 'caps',
+                           'clientagedays': '0',
+                           'clientagemonths': '3',
+                           'clientageyears': '9',
+                           'clientfirstname': '1-CAPs',
+                           'clientgender': 'Male',
+                           'clientlastname': 'Update-QA',
+                           'password': '',
+                           'reference': 'caps_recordform_sample.pdf',
+                           'respondentname': 'CAPs Sample',
+                           'scoreform': True,
+                           'submitformmessage': 'Are you ready to submit this '
+                                                'form? Some of the information '
+                                                'required for scoring has not '
+                                                'been entered.\n'
+                                                'Click YES to submit anyway. '
+                                                'All of the information you '
+                                                'have entered has been saved '
+                                                'and you could come back to '
+                                                'edit the form later.\n'
+                                                'Click NO to continue editing '
+                                                'the form.',
+                           'username': '',
+                           'validateform': True,
+                           'validateformmessage': 'This form is now ready to '
+                                                  'score. Please click OK to '
+                                                  'continue.'},
+                       {   'Client Information': {   'Administration date': '0 '
+                                                                            'years '
+                                                                            '0 '
+                                                                            'months '
+                                                                            '0 '
+                                                                            'days',
+                                                     'Age in months': '3',
+                                                     'Age in years': '9',
+                                                     'Gender': 'Male',
+                                                     'Grade': '6',
+                                                     'Name': '1-CAPs Update-QA',
+                                                     'School': 'Test School'},
+                           'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                          'Smith',
+                                                       'Examiner’s title': 'School '
+                                                                           'Psychologist'}},
+                       {},
+                       {   'Affective Expression': {   'q1': [   '0',
+                                                                 "It's okay, "
+                                                                 "you're "
+                                                                 'nervous. '
+                                                                 '(flat '
+                                                                 'affect, '
+                                                                 'monotone)'],
+                                                       'q2': [   '1',
+                                                                 "Aw, I'm so "
+                                                                 'sorry about '
+                                                                 'your puppy. '
+                                                                 '(comforting '
+                                                                 'tone and '
+                                                                 'facial '
+                                                                 'expression)'],
+                                                       'q3': [   '0',
+                                                                 'know. (flat '
+                                                                 'affect, '
+                                                                 'monotone)'],
+                                                       'q4': [   '0',
+                                                                 'Congratulations. '
+                                                                 '(flat '
+                                                                 'affect, '
+                                                                 'monotone)'],
+                                                       'q5': [   '0',
+                                                                 'Sorry. (flat '
+                                                                 'affect, '
+                                                                 'monotone)'],
+                                                       'q6': [   '0',
+                                                                 'Congratulations. '
+                                                                 '(flat '
+                                                                 'affect, '
+                                                                 'monotone)'],
+                                                       'q7': [   '0',
+                                                                 'Sorry. (flat '
+                                                                 'affect, '
+                                                                 'monotone)'],
+                                                       'q8': [   '0',
+                                                                 'Sorry. (flat '
+                                                                 'affect, '
+                                                                 'monotone)']},
+                           'Instrumental Performance': {   'q1': [   '1',
+                                                                     'Hi, this '
+                                                                     'is my '
+                                                                     'cousin, '
+                                                                     'and this '
+                                                                     'is my '
+                                                                     'friend, '
+                                                                     'Molly.'],
+                                                           'q2': [   '1',
+                                                                     'Hi '
+                                                                     'there.'],
+                                                           'q3': [   '1',
+                                                                     "Hi, I'm "
+                                                                     'in 4th '
+                                                                     'grade.'],
+                                                           'q4': [   '0',
+                                                                     'Where do '
+                                                                     'I go '
+                                                                     'out?'],
+                                                           'q5': [   '0',
+                                                                     'I want '
+                                                                     'to go.'],
+                                                           'q6': [   '0',
+                                                                     'I know.'],
+                                                           'q7': [   '1',
+                                                                     'Hi! Will '
+                                                                     'you go '
+                                                                     'to the '
+                                                                     'dance '
+                                                                     'with '
+                                                                     'me?'],
+                                                           'q8': [   '2',
+                                                                     'Can you '
+                                                                     'pass the '
+                                                                     'ketchup, '
+                                                                     'please, '
+                                                                     'when you '
+                                                                     'are done '
+                                                                     'with '
+                                                                     'it?']},
+                           'Instrumental Performance Appraisal': {   'q1': [   '2',
+                                                                               'Yes, '
+                                                                               'the '
+                                                                               'girl '
+                                                                               'was '
+                                                                               'not '
+                                                                               'being '
+                                                                               'very '
+                                                                               'polite.'],
+                                                                     'q2': [   '1',
+                                                                               'Yes, '
+                                                                               'the '
+                                                                               'guy '
+                                                                               'was '
+                                                                               'rude.'],
+                                                                     'q3': [   '2',
+                                                                               'Yes, '
+                                                                               'Cindy '
+                                                                               'was '
+                                                                               'rude '
+                                                                               'to '
+                                                                               'her '
+                                                                               'sister '
+                                                                               'and '
+                                                                               "didn't "
+                                                                               'ask '
+                                                                               'nicely.'],
+                                                                     'q4': [   '0',
+                                                                               'Yes, '
+                                                                               'she '
+                                                                               'was '
+                                                                               'annoying.'],
+                                                                     'q5': [   '0',
+                                                                               'Yes, '
+                                                                               'she '
+                                                                               "didn't "
+                                                                               'help.'],
+                                                                     'q6': [   '2',
+                                                                               'Yes, '
+                                                                               'he '
+                                                                               'was '
+                                                                               'rude '
+                                                                               'answering '
+                                                                               'the '
+                                                                               'phone '
+                                                                               'and '
+                                                                               "didn't "
+                                                                               'say '
+                                                                               'hello.'],
+                                                                     'q7': [   '1',
+                                                                               'No, '
+                                                                               'he '
+                                                                               'asked '
+                                                                               'his '
+                                                                               'dad '
+                                                                               'and '
+                                                                               'Dad '
+                                                                               'said '
+                                                                               'okay.'],
+                                                                     'q8': [   '0',
+                                                                               'Yes, '
+                                                                               'she '
+                                                                               "didn't "
+                                                                               'know '
+                                                                               'what '
+                                                                               'to '
+                                                                               'do.']},
+                           'Paralinguistic Decoding': {   'q1': ['0', 'Yes'],
+                                                          'q2': [   '1',
+                                                                    'Yes, he '
+                                                                    'got a bad '
+                                                                    'grade.'],
+                                                          'q3': [   '2',
+                                                                    'Yes, she '
+                                                                    "didn't "
+                                                                    'seem '
+                                                                    'excited '
+                                                                    'about the '
+                                                                    'food but '
+                                                                    'her '
+                                                                    'friend '
+                                                                    'thought '
+                                                                    'that she '
+                                                                    'was '
+                                                                    'excited.'],
+                                                          'q4': ['0', 'No'],
+                                                          'q5': ['0', 'No'],
+                                                          'q6': ['0', 'No'],
+                                                          'q7': [   '3',
+                                                                    'No, Cindy '
+                                                                    'was too '
+                                                                    'busy for '
+                                                                    'Jacob, '
+                                                                    'but '
+                                                                    'apologized '
+                                                                    'when she '
+                                                                    'remembered '
+                                                                    'that she '
+                                                                    'forgot to '
+                                                                    'answer '
+                                                                    'him. He '
+                                                                    'smiled '
+                                                                    'and said '
+                                                                    'it was '
+                                                                    'okay, '
+                                                                    'that he '
+                                                                    "wasn't "
+                                                                    'upset.'],
+                                                          'q8': [   '1',
+                                                                    'Yes, the '
+                                                                    'girls '
+                                                                    "didn't "
+                                                                    'like '
+                                                                    'Julia.']},
+                           'Paralinguistic Signals': {   'q1': [   '0',
+                                                                   'Go faster. '
+                                                                   '(flat '
+                                                                   'affect, '
+                                                                   'monotone)'],
+                                                         'q2': [   '1',
+                                                                   "I'm sorry. "
+                                                                   "I didn't "
+                                                                   'mean it. '
+                                                                   '(genuine '
+                                                                   'tone)'],
+                                                         'q3': [   '1',
+                                                                   "I'm sorry. "
+                                                                   '(genuine '
+                                                                   'tone)'],
+                                                         'q4': [   '0',
+                                                                   'I will fix '
+                                                                   'it.'],
+                                                         'q5': [   '1',
+                                                                   'Careful! '
+                                                                   '(genuine '
+                                                                   'tone)'],
+                                                         'q6': ['0', 'Help!'],
+                                                         'q7': [   '0',
+                                                                   'Can I go?'],
+                                                         'q8': ['0', 'Why?']},
+                           'Social Context Appraisal': {   'q1': [   '1',
+                                                                     'Yes, she '
+                                                                     'was '
+                                                                     'confused.'],
+                                                           'q2': [   '2',
+                                                                     'Yes, she '
+                                                                     'was '
+                                                                     'sarcastic '
+                                                                     'and the '
+                                                                     'boy got '
+                                                                     'in '
+                                                                     'trouble.'],
+                                                           'q3': ['0', 'No'],
+                                                           'q4': [   '3',
+                                                                     'Yes, the '
+                                                                     'girls '
+                                                                     'were '
+                                                                     'being '
+                                                                     'sarcastic '
+                                                                     'but the '
+                                                                     'boy '
+                                                                     'thought '
+                                                                     'it was a '
+                                                                     'compliment.'],
+                                                           'q5': [   '2',
+                                                                     'Yes, she '
+                                                                     "didn't "
+                                                                     'understand '
+                                                                     'the '
+                                                                     'sarcasm.'],
+                                                           'q6': ['0', 'Yes'],
+                                                           'q7': [   '1',
+                                                                     'Yes, she '
+                                                                     'was '
+                                                                     'frustrated.'],
+                                                           'q8': [   '1',
+                                                                     'Yes, she '
+                                                                     'was '
+                                                                     'sad.']}},
+                       {},
+                       {}],
+    'Case1-6-subtest': [   {   'administrationdate': '0 years 0 months 0 days',
+                               'assessmentform': 'CAPs Record Form (Ages 7-18)',
+                               'assessmenttype': 'caps',
+                               'clientagedays': '0',
+                               'clientagemonths': '3',
+                               'clientageyears': '9',
+                               'clientfirstname': '1-CAPs',
+                               'clientgender': 'Male',
+                               'clientlastname': 'Update-QA',
+                               'password': '',
+                               'reference': 'caps_recordform_case1-enter-all.pdf',
+                               'respondentname': 'Case1-6-subtest',
+                               'scoreform': True,
+                               'submitformmessage': 'Are you ready to submit '
+                                                    'this form? Some of the '
+                                                    'information required for '
+                                                    'scoring has not been '
+                                                    'entered.\n'
+                                                    'Click YES to submit '
+                                                    'anyway. All of the '
+                                                    'information you have '
+                                                    'entered has been saved '
+                                                    'and you could come back '
+                                                    'to edit the form later.\n'
+                                                    'Click NO to continue '
+                                                    'editing the form.',
+                               'username': '',
+                               'validateform': True,
+                               'validateformmessage': 'This form is now ready '
+                                                      'to score. Please click '
+                                                      'OK to continue.'},
+                           {   'Client Information': {   'Administration date': '0 '
+                                                                                'years '
+                                                                                '0 '
+                                                                                'months '
+                                                                                '0 '
+                                                                                'days',
+                                                         'Age in months': '3',
+                                                         'Age in years': '9',
+                                                         'Gender': 'Male',
+                                                         'Grade': '3',
+                                                         'Name': '1-CAPs '
+                                                                 'Update-QA',
+                                                         'School': 'Test '
+                                                                   'School'},
+                               'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                              'Smith',
+                                                           'Examiner’s title': 'School '
+                                                                               'Psychologist'}},
+                           {},
+                           {   'Affective Expression': {   'q1': ['2'],
+                                                           'q2': ['2'],
+                                                           'q3': ['2'],
+                                                           'q4': ['2'],
+                                                           'q5': ['2'],
+                                                           'q6': ['2'],
+                                                           'q7': ['2'],
+                                                           'q8': ['2']},
+                               'Instrumental Performance': {   'q1': ['2'],
+                                                               'q2': ['2'],
+                                                               'q3': ['2'],
+                                                               'q4': ['2'],
+                                                               'q5': ['2'],
+                                                               'q6': ['2'],
+                                                               'q7': ['2'],
+                                                               'q8': ['2']},
+                               'Instrumental Performance Appraisal': {   'q1': [   '2',
+                                                                                   'Yes, '
+                                                                                   'the '
+                                                                                   'girl '
+                                                                                   'was '
+                                                                                   'not '
+                                                                                   'being '
+                                                                                   'very '
+                                                                                   'polite.'],
+                                                                         'q2': [   '2'],
+                                                                         'q3': [   '2'],
+                                                                         'q4': [   '2'],
+                                                                         'q5': [   '2'],
+                                                                         'q6': [   '2'],
+                                                                         'q7': [   '2',
+                                                                                   'No'],
+                                                                         'q8': [   '2',
+                                                                                   'No']},
+                               'Paralinguistic Decoding': {   'q1': [   '0',
+                                                                        'Yes'],
+                                                              'q2': ['0', 'No'],
+                                                              'q3': ['0', 'No'],
+                                                              'q4': ['0', 'No'],
+                                                              'q5': ['0', 'No'],
+                                                              'q6': ['0', 'No'],
+                                                              'q7': [   '0',
+                                                                        'Yes'],
+                                                              'q8': [   '0',
+                                                                        'No']},
+                               'Paralinguistic Signals': {   'q1': ['0'],
+                                                             'q2': ['0'],
+                                                             'q3': ['0'],
+                                                             'q4': ['0'],
+                                                             'q5': ['0'],
+                                                             'q6': ['0'],
+                                                             'q7': ['0'],
+                                                             'q8': ['0']},
+                               'Social Context Appraisal': {   'q1': [   '0',
+                                                                         'No'],
+                                                               'q2': ['0'],
+                                                               'q3': ['0'],
+                                                               'q4': ['0'],
+                                                               'q5': ['0'],
+                                                               'q6': ['0'],
+                                                               'q7': ['0'],
+                                                               'q8': ['0']}},
+                           {},
+                           {}],
+    'Case2-missing-2-subtest': [   {   'administrationdate': '0 years 0 months '
+                                                             '0 days',
+                                       'assessmentform': 'CAPs Record Form '
+                                                         '(Ages 7-18)',
+                                       'assessmenttype': 'caps',
+                                       'clientagedays': '0',
+                                       'clientagemonths': '3',
+                                       'clientageyears': '9',
+                                       'clientfirstname': '1-CAPs',
+                                       'clientgender': 'Male',
+                                       'clientlastname': 'Update-QA',
+                                       'password': '',
+                                       'reference': 'caps_recordform_case2-missing2s.pdf',
+                                       'respondentname': 'Case2-missing-2-subtest',
+                                       'scoreform': True,
+                                       'submitformmessage': 'Are you ready to '
+                                                            'submit this form? '
+                                                            'Some of the '
+                                                            'information '
+                                                            'required for '
+                                                            'scoring has not '
+                                                            'been entered.\n'
+                                                            'Click YES to '
+                                                            'submit anyway. '
+                                                            'All of the '
+                                                            'information you '
+                                                            'have entered has '
+                                                            'been saved and '
+                                                            'you could come '
+                                                            'back to edit the '
+                                                            'form later.\n'
+                                                            'Click NO to '
+                                                            'continue editing '
+                                                            'the form.',
+                                       'username': '',
+                                       'validateform': True,
+                                       'validateformmessage': 'This form is '
+                                                              'now ready to '
+                                                              'score. Please '
+                                                              'click OK to '
+                                                              'continue.'},
+                                   {   'Client Information': {   'Administration date': '0 '
+                                                                                        'years '
+                                                                                        '0 '
+                                                                                        'months '
+                                                                                        '0 '
+                                                                                        'days',
+                                                                 'Age in months': '3',
+                                                                 'Age in years': '9',
+                                                                 'Gender': 'Male',
+                                                                 'Grade': '5',
+                                                                 'Name': '1-CAPs '
+                                                                         'Update-QA',
+                                                                 'School': 'Test '
+                                                                           'School'},
+                                       'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                                      'Smith',
+                                                                   'Examiner’s title': 'School '
+                                                                                       'Psychologist'}},
+                                   {},
+                                   {   'Affective Expression': {   'q1': ['0'],
+                                                                   'q2': [   '1',
+                                                                             'Aw, '
+                                                                             "I'm "
+                                                                             'so '
+                                                                             'sorry '
+                                                                             'about '
+                                                                             'your '
+                                                                             'puppy. '
+                                                                             '(comforting '
+                                                                             'tone '
+                                                                             'and '
+                                                                             'facial '
+                                                                             'expression)'],
+                                                                   'q3': ['0'],
+                                                                   'q4': ['0'],
+                                                                   'q5': ['0'],
+                                                                   'q6': ['0'],
+                                                                   'q7': ['0'],
+                                                                   'q8': ['0']},
+                                       'Instrumental Performance': {   'q1': [   '1'],
+                                                                       'q2': [   '1'],
+                                                                       'q3': [   '1'],
+                                                                       'q4': [   '0'],
+                                                                       'q5': [   '0'],
+                                                                       'q6': [   '0'],
+                                                                       'q7': [   '1'],
+                                                                       'q8': [   '2']},
+                                       'Instrumental Performance Appraisal': {   'q1': [   'SKIP'],
+                                                                                 'q2': [   'SKIP'],
+                                                                                 'q3': [   'SKIP'],
+                                                                                 'q4': [   'SKIP'],
+                                                                                 'q5': [   'SKIP'],
+                                                                                 'q6': [   'SKIP'],
+                                                                                 'q7': [   'SKIP'],
+                                                                                 'q8': [   'SKIP']},
+                                       'Paralinguistic Decoding': {   'q1': [   '0',
+                                                                                'Yes'],
+                                                                      'q2': [   '1',
+                                                                                'Yes, '
+                                                                                'he '
+                                                                                'got '
+                                                                                'a '
+                                                                                'bad '
+                                                                                'grade.'],
+                                                                      'q3': [   '2',
+                                                                                'Yes, '
+                                                                                'she '
+                                                                                "didn't "
+                                                                                'seem '
+                                                                                'excited '
+                                                                                'about '
+                                                                                'the '
+                                                                                'food '
+                                                                                'but '
+                                                                                'her '
+                                                                                'friend '
+                                                                                'thought '
+                                                                                'that '
+                                                                                'she '
+                                                                                'was '
+                                                                                'excited.'],
+                                                                      'q4': [   '0'],
+                                                                      'q5': [   '0'],
+                                                                      'q6': [   '0'],
+                                                                      'q7': [   '3',
+                                                                                'No, '
+                                                                                'Cindy '
+                                                                                'was '
+                                                                                'too '
+                                                                                'busy '
+                                                                                'for '
+                                                                                'Jacob, '
+                                                                                'but '
+                                                                                'apologized '
+                                                                                'when '
+                                                                                'she '
+                                                                                'remembered '
+                                                                                'that '
+                                                                                'she '
+                                                                                'forgot '
+                                                                                'to '
+                                                                                'answer '
+                                                                                'him. '
+                                                                                'He '
+                                                                                'smiled '
+                                                                                'and '
+                                                                                'said '
+                                                                                'it '
+                                                                                'was '
+                                                                                'okay, '
+                                                                                'that '
+                                                                                'he '
+                                                                                "wasn't "
+                                                                                'upset.'],
+                                                                      'q8': [   '1',
+                                                                                'Yes, '
+                                                                                'the '
+                                                                                'girls '
+                                                                                "didn't "
+                                                                                'like '
+                                                                                'Julia.']},
+                                       'Paralinguistic Signals': {   'q1': [   '0',
+                                                                               'Go '
+                                                                               'faster. '
+                                                                               '(flat '
+                                                                               'affect, '
+                                                                               'monotone)'],
+                                                                     'q2': [   '1',
+                                                                               "I'm "
+                                                                               'sorry. '
+                                                                               'I '
+                                                                               "didn't "
+                                                                               'mean '
+                                                                               'it. '
+                                                                               '(genuine '
+                                                                               'tone)'],
+                                                                     'q3': [   '1',
+                                                                               "I'm "
+                                                                               'sorry. '
+                                                                               '(genuine '
+                                                                               'tone)'],
+                                                                     'q4': [   '0',
+                                                                               'I '
+                                                                               'will '
+                                                                               'fix '
+                                                                               'it.'],
+                                                                     'q5': [   '1',
+                                                                               'Careful! '
+                                                                               '(genuine '
+                                                                               'tone)'],
+                                                                     'q6': [   '0',
+                                                                               'Help!'],
+                                                                     'q7': [   '0',
+                                                                               'Can '
+                                                                               'I '
+                                                                               'go?'],
+                                                                     'q8': [   '0',
+                                                                               'Why?']},
+                                       'Social Context Appraisal': {   'q1': [   'SKIP'],
+                                                                       'q2': [   'SKIP'],
+                                                                       'q3': [   'SKIP'],
+                                                                       'q4': [   'SKIP'],
+                                                                       'q5': [   'SKIP'],
+                                                                       'q6': [   'SKIP'],
+                                                                       'q7': [   'SKIP'],
+                                                                       'q8': [   'SKIP']}},
+                                   {},
+                                   {}],
+    'Case3-missing-3-subtest': [   {   'administrationdate': '0 years 0 months '
+                                                             '0 days',
+                                       'assessmentform': 'CAPs Record Form '
+                                                         '(Ages 7-18)',
+                                       'assessmenttype': 'caps',
+                                       'clientagedays': '0',
+                                       'clientagemonths': '3',
+                                       'clientageyears': '9',
+                                       'clientfirstname': '1-CAPs',
+                                       'clientgender': 'Male',
+                                       'clientlastname': 'Update-QA',
+                                       'password': '',
+                                       'reference': 'caps_recordform_case3-missing3s.pdf',
+                                       'respondentname': 'Case3-missing-3-subtest',
+                                       'scoreform': True,
+                                       'submitformmessage': 'Are you ready to '
+                                                            'submit this form? '
+                                                            'Some of the '
+                                                            'information '
+                                                            'required for '
+                                                            'scoring has not '
+                                                            'been entered.\n'
+                                                            'Click YES to '
+                                                            'submit anyway. '
+                                                            'All of the '
+                                                            'information you '
+                                                            'have entered has '
+                                                            'been saved and '
+                                                            'you could come '
+                                                            'back to edit the '
+                                                            'form later.\n'
+                                                            'Click NO to '
+                                                            'continue editing '
+                                                            'the form.',
+                                       'username': '',
+                                       'validateform': True,
+                                       'validateformmessage': 'This form is '
+                                                              'now ready to '
+                                                              'score. Please '
+                                                              'click OK to '
+                                                              'continue.'},
+                                   {   'Client Information': {   'Administration date': '0 '
+                                                                                        'years '
+                                                                                        '0 '
+                                                                                        'months '
+                                                                                        '0 '
+                                                                                        'days',
+                                                                 'Age in months': '3',
+                                                                 'Age in years': '9',
+                                                                 'Gender': 'Male',
+                                                                 'Grade': '6',
+                                                                 'Name': '1-CAPs '
+                                                                         'Update-QA',
+                                                                 'School': 'Test '
+                                                                           'School'},
+                                       'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                                      'Smith',
+                                                                   'Examiner’s title': 'School '
+                                                                                       'Psychologist'}},
+                                   {},
+                                   {   'Affective Expression': {   'q1': ['0'],
+                                                                   'q2': [   '1',
+                                                                             'Aw, '
+                                                                             "I'm "
+                                                                             'so '
+                                                                             'sorry '
+                                                                             'about '
+                                                                             'your '
+                                                                             'puppy. '
+                                                                             '(comforting '
+                                                                             'tone '
+                                                                             'and '
+                                                                             'facial '
+                                                                             'expression)'],
+                                                                   'q3': ['0'],
+                                                                   'q4': ['0'],
+                                                                   'q5': ['0'],
+                                                                   'q6': ['0'],
+                                                                   'q7': ['0'],
+                                                                   'q8': ['0']},
+                                       'Instrumental Performance': {   'q1': [   '1',
+                                                                                 'Hi, '
+                                                                                 'this '
+                                                                                 'is '
+                                                                                 'my '
+                                                                                 'cousin, '
+                                                                                 'and '
+                                                                                 'this '
+                                                                                 'is '
+                                                                                 'my '
+                                                                                 'friend, '
+                                                                                 'Molly.'],
+                                                                       'q2': [   '1',
+                                                                                 'Hi '
+                                                                                 'there.'],
+                                                                       'q3': [   '1'],
+                                                                       'q4': [   '0',
+                                                                                 'Where '
+                                                                                 'do '
+                                                                                 'I '
+                                                                                 'go '
+                                                                                 'out?'],
+                                                                       'q5': [   '0'],
+                                                                       'q6': [   '0'],
+                                                                       'q7': [   '1'],
+                                                                       'q8': [   '2',
+                                                                                 'Can '
+                                                                                 'you '
+                                                                                 'pass '
+                                                                                 'the '
+                                                                                 'ketchup, '
+                                                                                 'please, '
+                                                                                 'when '
+                                                                                 'you '
+                                                                                 'are '
+                                                                                 'done '
+                                                                                 'with '
+                                                                                 'it?']},
+                                       'Instrumental Performance Appraisal': {   'q1': [   'SKIP'],
+                                                                                 'q2': [   'SKIP'],
+                                                                                 'q3': [   'SKIP'],
+                                                                                 'q4': [   'SKIP'],
+                                                                                 'q5': [   'SKIP'],
+                                                                                 'q6': [   'SKIP'],
+                                                                                 'q7': [   'SKIP'],
+                                                                                 'q8': [   'SKIP']},
+                                       'Paralinguistic Decoding': {   'q1': [   'SKIP'],
+                                                                      'q2': [   'SKIP'],
+                                                                      'q3': [   'SKIP'],
+                                                                      'q4': [   'SKIP'],
+                                                                      'q5': [   'SKIP'],
+                                                                      'q6': [   'SKIP'],
+                                                                      'q7': [   'SKIP'],
+                                                                      'q8': [   'SKIP']},
+                                       'Paralinguistic Signals': {   'q1': [   '0'],
+                                                                     'q2': [   '1',
+                                                                               "I'm "
+                                                                               'sorry. '
+                                                                               'I '
+                                                                               "didn't "
+                                                                               'mean '
+                                                                               'it. '
+                                                                               '(genuine '
+                                                                               'tone)'],
+                                                                     'q3': [   '1',
+                                                                               "I'm "
+                                                                               'sorry. '
+                                                                               '(genuine '
+                                                                               'tone)'],
+                                                                     'q4': [   '0'],
+                                                                     'q5': [   '1',
+                                                                               'Careful! '
+                                                                               '(genuine '
+                                                                               'tone)'],
+                                                                     'q6': [   '0'],
+                                                                     'q7': [   '0'],
+                                                                     'q8': [   '0',
+                                                                               'Why?']},
+                                       'Social Context Appraisal': {   'q1': [   'SKIP'],
+                                                                       'q2': [   'SKIP'],
+                                                                       'q3': [   'SKIP'],
+                                                                       'q4': [   'SKIP'],
+                                                                       'q5': [   'SKIP'],
+                                                                       'q6': [   'SKIP'],
+                                                                       'q7': [   'SKIP'],
+                                                                       'q8': [   'SKIP']}},
+                                   {},
+                                   {}],
+    'Case4-missing-2-subtest-item': [   {   'administrationdate': '0 years 0 '
+                                                                  'months 0 '
+                                                                  'days',
+                                            'assessmentform': 'CAPs Record '
+                                                              'Form (Ages '
+                                                              '7-18)',
+                                            'assessmenttype': 'caps',
+                                            'clientagedays': '0',
+                                            'clientagemonths': '3',
+                                            'clientageyears': '9',
+                                            'clientfirstname': '1-CAPs',
+                                            'clientgender': 'Male',
+                                            'clientlastname': 'Update-QA',
+                                            'password': '',
+                                            'reference': 'caps_recordform_case4-missing2s-item.pdf',
+                                            'respondentname': 'Case4-missing-2-subtest-item',
+                                            'scoreform': True,
+                                            'submitformmessage': 'Are you '
+                                                                 'ready to '
+                                                                 'submit this '
+                                                                 'form? Some '
+                                                                 'of the '
+                                                                 'information '
+                                                                 'required for '
+                                                                 'scoring has '
+                                                                 'not been '
+                                                                 'entered.\n'
+                                                                 'Click YES to '
+                                                                 'submit '
+                                                                 'anyway. All '
+                                                                 'of the '
+                                                                 'information '
+                                                                 'you have '
+                                                                 'entered has '
+                                                                 'been saved '
+                                                                 'and you '
+                                                                 'could come '
+                                                                 'back to edit '
+                                                                 'the form '
+                                                                 'later.\n'
+                                                                 'Click NO to '
+                                                                 'continue '
+                                                                 'editing the '
+                                                                 'form.',
+                                            'username': '',
+                                            'validateform': True,
+                                            'validateformmessage': 'This form '
+                                                                   'is now '
+                                                                   'ready to '
+                                                                   'score. '
+                                                                   'Please '
+                                                                   'click OK '
+                                                                   'to '
+                                                                   'continue.'},
+                                        {   'Client Information': {   'Administration date': '0 '
+                                                                                             'years '
+                                                                                             '0 '
+                                                                                             'months '
+                                                                                             '0 '
+                                                                                             'days',
+                                                                      'Age in months': '3',
+                                                                      'Age in years': '9',
+                                                                      'Gender': 'Male',
+                                                                      'Grade': '2',
+                                                                      'Name': '1-CAPs '
+                                                                              'Update-QA',
+                                                                      'School': 'Test '
+                                                                                'School'},
+                                            'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                                           'Smith',
+                                                                        'Examiner’s title': 'School '
+                                                                                            'Psychologist'}},
+                                        {},
+                                        {   'Affective Expression': {   'q1': [   'SKIP'],
+                                                                        'q2': [   'SKIP'],
+                                                                        'q3': [   'SKIP'],
+                                                                        'q4': [   'SKIP'],
+                                                                        'q5': [   'SKIP'],
+                                                                        'q6': [   'SKIP'],
+                                                                        'q7': [   'SKIP'],
+                                                                        'q8': [   'SKIP']},
+                                            'Instrumental Performance': {   'q1': [   '2'],
+                                                                            'q2': [   '2'],
+                                                                            'q3': [   '2'],
+                                                                            'q4': [   '2'],
+                                                                            'q5': [   '2'],
+                                                                            'q6': [   '2'],
+                                                                            'q7': [   '2'],
+                                                                            'q8': [   '2']},
+                                            'Instrumental Performance Appraisal': {   'q1': [   '2',
+                                                                                                'Yes, '
+                                                                                                'the '
+                                                                                                'girl '
+                                                                                                'was '
+                                                                                                'not '
+                                                                                                'being '
+                                                                                                'very '
+                                                                                                'polite.'],
+                                                                                      'q2': [   '1',
+                                                                                                'Yes, '
+                                                                                                'the '
+                                                                                                'guy '
+                                                                                                'was '
+                                                                                                'rude.'],
+                                                                                      'q3': [   '2',
+                                                                                                'Yes, '
+                                                                                                'Cindy '
+                                                                                                'was '
+                                                                                                'rude '
+                                                                                                'to '
+                                                                                                'her '
+                                                                                                'sister '
+                                                                                                'and '
+                                                                                                "didn't "
+                                                                                                'ask '
+                                                                                                'nicely.'],
+                                                                                      'q4': [   '0'],
+                                                                                      'q5': [   '0',
+                                                                                                'Yes'],
+                                                                                      'q6': [   '2',
+                                                                                                'Yes'],
+                                                                                      'q7': [   '1',
+                                                                                                'No'],
+                                                                                      'q8': [   'SKIP']},
+                                            'Paralinguistic Decoding': {   'q1': [   '0',
+                                                                                     'Yes'],
+                                                                           'q2': [   '1'],
+                                                                           'q3': [   '2'],
+                                                                           'q4': [   '0',
+                                                                                     'No'],
+                                                                           'q5': [   '0',
+                                                                                     'No'],
+                                                                           'q6': [   '0',
+                                                                                     'No'],
+                                                                           'q7': [   '3',
+                                                                                     'No, '
+                                                                                     'Cindy '
+                                                                                     'was '
+                                                                                     'too '
+                                                                                     'busy '
+                                                                                     'for '
+                                                                                     'Jacob, '
+                                                                                     'but '
+                                                                                     'apologized '
+                                                                                     'when '
+                                                                                     'she '
+                                                                                     'remembered '
+                                                                                     'that '
+                                                                                     'she '
+                                                                                     'forgot '
+                                                                                     'to '
+                                                                                     'answer '
+                                                                                     'him. '
+                                                                                     'He '
+                                                                                     'smiled '
+                                                                                     'and '
+                                                                                     'said '
+                                                                                     'it '
+                                                                                     'was '
+                                                                                     'okay, '
+                                                                                     'that '
+                                                                                     'he '
+                                                                                     "wasn't "
+                                                                                     'upset.'],
+                                                                           'q8': [   '1',
+                                                                                     'Yes, '
+                                                                                     'the '
+                                                                                     'girls '
+                                                                                     "didn't "
+                                                                                     'like '
+                                                                                     'Julia.']},
+                                            'Paralinguistic Signals': {   'q1': [   'SKIP'],
+                                                                          'q2': [   'SKIP'],
+                                                                          'q3': [   'SKIP'],
+                                                                          'q4': [   'SKIP'],
+                                                                          'q5': [   'SKIP'],
+                                                                          'q6': [   'SKIP'],
+                                                                          'q7': [   'SKIP'],
+                                                                          'q8': [   'SKIP']},
+                                            'Social Context Appraisal': {   'q1': [   '1',
+                                                                                      'Yes, '
+                                                                                      'she '
+                                                                                      'was '
+                                                                                      'confused.'],
+                                                                            'q2': [   '2'],
+                                                                            'q3': [   '0'],
+                                                                            'q4': [   '3'],
+                                                                            'q5': [   '2'],
+                                                                            'q6': [   '0'],
+                                                                            'q7': [   '1'],
+                                                                            'q8': [   '1',
+                                                                                      'Yes, '
+                                                                                      'she '
+                                                                                      'was '
+                                                                                      'sad.']}},
+                                        {},
+                                        {}],
+    'Case5-missing-1-subtest-item': [   {   'administrationdate': '0 years 0 '
+                                                                  'months 0 '
+                                                                  'days',
+                                            'assessmentform': 'CAPs Record '
+                                                              'Form (Ages '
+                                                              '7-18)',
+                                            'assessmenttype': 'caps',
+                                            'clientagedays': '0',
+                                            'clientagemonths': '3',
+                                            'clientageyears': '9',
+                                            'clientfirstname': '1-CAPs',
+                                            'clientgender': 'Male',
+                                            'clientlastname': 'Update-QA',
+                                            'password': '',
+                                            'reference': 'caps_recordform_case5-missing1s-item.pdf',
+                                            'respondentname': 'Case5-missing-1-subtest-item',
+                                            'scoreform': True,
+                                            'submitformmessage': 'Are you '
+                                                                 'ready to '
+                                                                 'submit this '
+                                                                 'form? Some '
+                                                                 'of the '
+                                                                 'information '
+                                                                 'required for '
+                                                                 'scoring has '
+                                                                 'not been '
+                                                                 'entered.\n'
+                                                                 'Click YES to '
+                                                                 'submit '
+                                                                 'anyway. All '
+                                                                 'of the '
+                                                                 'information '
+                                                                 'you have '
+                                                                 'entered has '
+                                                                 'been saved '
+                                                                 'and you '
+                                                                 'could come '
+                                                                 'back to edit '
+                                                                 'the form '
+                                                                 'later.\n'
+                                                                 'Click NO to '
+                                                                 'continue '
+                                                                 'editing the '
+                                                                 'form.',
+                                            'username': '',
+                                            'validateform': True,
+                                            'validateformmessage': 'This form '
+                                                                   'is now '
+                                                                   'ready to '
+                                                                   'score. '
+                                                                   'Please '
+                                                                   'click OK '
+                                                                   'to '
+                                                                   'continue.'},
+                                        {   'Client Information': {   'Administration date': '0 '
+                                                                                             'years '
+                                                                                             '0 '
+                                                                                             'months '
+                                                                                             '0 '
+                                                                                             'days',
+                                                                      'Age in months': '3',
+                                                                      'Age in years': '9',
+                                                                      'Gender': 'Male',
+                                                                      'Grade': '6',
+                                                                      'Name': '1-CAPs '
+                                                                              'Update-QA',
+                                                                      'School': 'Test '
+                                                                                'School'},
+                                            'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                                           'Smith',
+                                                                        'Examiner’s title': 'School '
+                                                                                            'Psychologist'}},
+                                        {},
+                                        {   'Affective Expression': {   'q1': [   '0'],
+                                                                        'q2': [   '1',
+                                                                                  'Aw, '
+                                                                                  "I'm "
+                                                                                  'so '
+                                                                                  'sorry '
+                                                                                  'about '
+                                                                                  'your '
+                                                                                  'puppy. '
+                                                                                  '(comforting '
+                                                                                  'tone '
+                                                                                  'and '
+                                                                                  'facial '
+                                                                                  'expression)'],
+                                                                        'q3': [   '0'],
+                                                                        'q4': [   '0'],
+                                                                        'q5': [   '0'],
+                                                                        'q6': [   '0'],
+                                                                        'q7': [   '0'],
+                                                                        'q8': [   '0']},
+                                            'Instrumental Performance': {   'q1': [   '1'],
+                                                                            'q2': [   '1'],
+                                                                            'q3': [   '1'],
+                                                                            'q4': [   '0'],
+                                                                            'q5': [   '0'],
+                                                                            'q6': [   '0'],
+                                                                            'q7': [   '1'],
+                                                                            'q8': [   '2']},
+                                            'Instrumental Performance Appraisal': {   'q1': [   'SKIP'],
+                                                                                      'q2': [   'SKIP'],
+                                                                                      'q3': [   'SKIP'],
+                                                                                      'q4': [   'SKIP'],
+                                                                                      'q5': [   'SKIP'],
+                                                                                      'q6': [   'SKIP'],
+                                                                                      'q7': [   'SKIP'],
+                                                                                      'q8': [   'SKIP']},
+                                            'Paralinguistic Decoding': {   'q1': [   '0',
+                                                                                     'Yes'],
+                                                                           'q2': [   '1'],
+                                                                           'q3': [   '2',
+                                                                                     'Yes, '
+                                                                                     'she '
+                                                                                     "didn't "
+                                                                                     'seem '
+                                                                                     'excited '
+                                                                                     'about '
+                                                                                     'the '
+                                                                                     'food '
+                                                                                     'but '
+                                                                                     'her '
+                                                                                     'friend '
+                                                                                     'thought '
+                                                                                     'that '
+                                                                                     'she '
+                                                                                     'was '
+                                                                                     'excited.'],
+                                                                           'q4': [   '0',
+                                                                                     'No'],
+                                                                           'q5': [   '0',
+                                                                                     'No'],
+                                                                           'q6': [   '0',
+                                                                                     'No'],
+                                                                           'q7': [   '3'],
+                                                                           'q8': [   '1']},
+                                            'Paralinguistic Signals': {   'q1': [   '0'],
+                                                                          'q2': [   '1',
+                                                                                    "I'm "
+                                                                                    'sorry. '
+                                                                                    'I '
+                                                                                    "didn't "
+                                                                                    'mean '
+                                                                                    'it. '
+                                                                                    '(genuine '
+                                                                                    'tone)'],
+                                                                          'q3': [   '1'],
+                                                                          'q4': [   '0'],
+                                                                          'q5': [   '1'],
+                                                                          'q6': [   '0'],
+                                                                          'q7': [   '0'],
+                                                                          'q8': [   '0']},
+                                            'Social Context Appraisal': {   'q1': [   '1',
+                                                                                      'Yes, '
+                                                                                      'she '
+                                                                                      'was '
+                                                                                      'confused.'],
+                                                                            'q2': [   'SKIP'],
+                                                                            'q3': [   'SKIP'],
+                                                                            'q4': [   '3'],
+                                                                            'q5': [   '2'],
+                                                                            'q6': [   '0'],
+                                                                            'q7': [   '1'],
+                                                                            'q8': [   '1']}},
+                                        {},
+                                        {}],
+    'Case6-missing-4-subtest': [   {   'administrationdate': '0 years 0 months '
+                                                             '0 days',
+                                       'assessmentform': 'CAPs Record Form '
+                                                         '(Ages 7-18)',
+                                       'assessmenttype': 'caps',
+                                       'clientagedays': '0',
+                                       'clientagemonths': '3',
+                                       'clientageyears': '9',
+                                       'clientfirstname': '1-CAPs',
+                                       'clientgender': 'Male',
+                                       'clientlastname': 'Update-QA',
+                                       'password': '',
+                                       'reference': '',
+                                       'respondentname': 'Case6-missing-4-subtest',
+                                       'scoreform': False,
+                                       'submitformmessage': 'Are you ready to '
+                                                            'submit this form? '
+                                                            'Some of the '
+                                                            'information '
+                                                            'required for '
+                                                            'scoring has not '
+                                                            'been entered.\n'
+                                                            'Click YES to '
+                                                            'submit anyway. '
+                                                            'All of the '
+                                                            'information you '
+                                                            'have entered has '
+                                                            'been saved and '
+                                                            'you could come '
+                                                            'back to edit the '
+                                                            'form later.\n'
+                                                            'Click NO to '
+                                                            'continue editing '
+                                                            'the form.',
+                                       'username': '',
+                                       'validateform': True,
+                                       'validateformmessage': 'This form '
+                                                              'cannot be '
+                                                              'scored because '
+                                                              'some items are '
+                                                              'missing '
+                                                              'responses. You '
+                                                              'must administer '
+                                                              'and enter '
+                                                              'responses for '
+                                                              'all items '
+                                                              'within at least '
+                                                              'three or more '
+                                                              'subtests to '
+                                                              'receive scores '
+                                                              'using this '
+                                                              'program. If '
+                                                              'only '
+                                                              'administering '
+                                                              'one or two '
+                                                              'subtests, no '
+                                                              'scores will be '
+                                                              'calculated.\n'
+                                                              'Administering '
+                                                              'all 6 CAPs '
+                                                              'subtests is '
+                                                              'recommended to '
+                                                              'gain the most '
+                                                              'insight into '
+                                                              'the client’s '
+                                                              'pragmatic '
+                                                              'language '
+                                                              'skills. Please '
+                                                              'edit the form '
+                                                              'to complete '
+                                                              'missing items, '
+                                                              'and then click '
+                                                              'on Score Form '
+                                                              'to generate the '
+                                                              'report.'},
+                                   {   'Client Information': {   'Administration date': '0 '
+                                                                                        'years '
+                                                                                        '0 '
+                                                                                        'months '
+                                                                                        '0 '
+                                                                                        'days',
+                                                                 'Age in months': '3',
+                                                                 'Age in years': '9',
+                                                                 'Gender': 'Male',
+                                                                 'Grade': '6',
+                                                                 'Name': '1-CAPs '
+                                                                         'Update-QA',
+                                                                 'School': 'Test '
+                                                                           'School'},
+                                       'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                                      'Smith',
+                                                                   'Examiner’s title': 'School '
+                                                                                       'Psychologist'}},
+                                   {},
+                                   {   'Affective Expression': {   'q1': [   'SKIP'],
+                                                                   'q2': [   'SKIP'],
+                                                                   'q3': [   'SKIP'],
+                                                                   'q4': [   'SKIP'],
+                                                                   'q5': [   'SKIP'],
+                                                                   'q6': [   'SKIP'],
+                                                                   'q7': [   'SKIP'],
+                                                                   'q8': [   'SKIP']},
+                                       'Instrumental Performance': {   'q1': [   'SKIP'],
+                                                                       'q2': [   'SKIP'],
+                                                                       'q3': [   'SKIP'],
+                                                                       'q4': [   'SKIP'],
+                                                                       'q5': [   'SKIP'],
+                                                                       'q6': [   'SKIP'],
+                                                                       'q7': [   'SKIP'],
+                                                                       'q8': [   'SKIP']},
+                                       'Instrumental Performance Appraisal': {   'q1': [   '2'],
+                                                                                 'q2': [   '2',
+                                                                                           'Yes, '
+                                                                                           'the '
+                                                                                           'guy '
+                                                                                           'was '
+                                                                                           'rude.'],
+                                                                                 'q3': [   '2'],
+                                                                                 'q4': [   '2'],
+                                                                                 'q5': [   '2'],
+                                                                                 'q6': [   '2'],
+                                                                                 'q7': [   '2'],
+                                                                                 'q8': [   '2']},
+                                       'Paralinguistic Decoding': {   'q1': [   'SKIP'],
+                                                                      'q2': [   'SKIP'],
+                                                                      'q3': [   'SKIP'],
+                                                                      'q4': [   'SKIP'],
+                                                                      'q5': [   'SKIP'],
+                                                                      'q6': [   'SKIP'],
+                                                                      'q7': [   'SKIP'],
+                                                                      'q8': [   'SKIP']},
+                                       'Paralinguistic Signals': {   'q1': [   '1'],
+                                                                     'q2': [   '1'],
+                                                                     'q3': [   '1'],
+                                                                     'q4': [   '1'],
+                                                                     'q5': [   '1'],
+                                                                     'q6': [   '1'],
+                                                                     'q7': [   '1'],
+                                                                     'q8': [   '1']},
+                                       'Social Context Appraisal': {   'q1': [   'SKIP'],
+                                                                       'q2': [   'SKIP'],
+                                                                       'q3': [   'SKIP'],
+                                                                       'q4': [   'SKIP'],
+                                                                       'q5': [   'SKIP'],
+                                                                       'q6': [   'SKIP'],
+                                                                       'q7': [   'SKIP'],
+                                                                       'q8': [   'SKIP']}},
+                                   {},
+                                   {}],
+    'Case7-missing-3-subtest-item': [   {   'administrationdate': '0 years 0 '
+                                                                  'months 0 '
+                                                                  'days',
+                                            'assessmentform': 'CAPs Record '
+                                                              'Form (Ages '
+                                                              '7-18)',
+                                            'assessmenttype': 'caps',
+                                            'clientagedays': '0',
+                                            'clientagemonths': '3',
+                                            'clientageyears': '9',
+                                            'clientfirstname': '1-CAPs',
+                                            'clientgender': 'Male',
+                                            'clientlastname': 'Update-QA',
+                                            'password': '',
+                                            'reference': '',
+                                            'respondentname': 'Case7-missing-3-subtest-item',
+                                            'scoreform': False,
+                                            'submitformmessage': 'Are you '
+                                                                 'ready to '
+                                                                 'submit this '
+                                                                 'form? Some '
+                                                                 'of the '
+                                                                 'information '
+                                                                 'required for '
+                                                                 'scoring has '
+                                                                 'not been '
+                                                                 'entered.\n'
+                                                                 'Click YES to '
+                                                                 'submit '
+                                                                 'anyway. All '
+                                                                 'of the '
+                                                                 'information '
+                                                                 'you have '
+                                                                 'entered has '
+                                                                 'been saved '
+                                                                 'and you '
+                                                                 'could come '
+                                                                 'back to edit '
+                                                                 'the form '
+                                                                 'later.\n'
+                                                                 'Click NO to '
+                                                                 'continue '
+                                                                 'editing the '
+                                                                 'form.',
+                                            'username': '',
+                                            'validateform': True,
+                                            'validateformmessage': 'This form '
+                                                                   'cannot be '
+                                                                   'scored '
+                                                                   'because '
+                                                                   'some items '
+                                                                   'are '
+                                                                   'missing '
+                                                                   'responses. '
+                                                                   'You must '
+                                                                   'administer '
+                                                                   'and enter '
+                                                                   'responses '
+                                                                   'for all '
+                                                                   'items '
+                                                                   'within at '
+                                                                   'least '
+                                                                   'three or '
+                                                                   'more '
+                                                                   'subtests '
+                                                                   'to receive '
+                                                                   'scores '
+                                                                   'using this '
+                                                                   'program. '
+                                                                   'If only '
+                                                                   'administering '
+                                                                   'one or two '
+                                                                   'subtests, '
+                                                                   'no scores '
+                                                                   'will be '
+                                                                   'calculated.\n'
+                                                                   'Administering '
+                                                                   'all 6 CAPs '
+                                                                   'subtests '
+                                                                   'is '
+                                                                   'recommended '
+                                                                   'to gain '
+                                                                   'the most '
+                                                                   'insight '
+                                                                   'into the '
+                                                                   'client’s '
+                                                                   'pragmatic '
+                                                                   'language '
+                                                                   'skills. '
+                                                                   'Please '
+                                                                   'edit the '
+                                                                   'form to '
+                                                                   'complete '
+                                                                   'missing '
+                                                                   'items, and '
+                                                                   'then click '
+                                                                   'on Score '
+                                                                   'Form to '
+                                                                   'generate '
+                                                                   'the '
+                                                                   'report.'},
+                                        {   'Client Information': {   'Administration date': '0 '
+                                                                                             'years '
+                                                                                             '0 '
+                                                                                             'months '
+                                                                                             '0 '
+                                                                                             'days',
+                                                                      'Age in months': '3',
+                                                                      'Age in years': '9',
+                                                                      'Gender': 'Male',
+                                                                      'Grade': '6',
+                                                                      'Name': '1-CAPs '
+                                                                              'Update-QA',
+                                                                      'School': 'Test '
+                                                                                'School'},
+                                            'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                                           'Smith',
+                                                                        'Examiner’s title': 'School '
+                                                                                            'Psychologist'}},
+                                        {},
+                                        {   'Affective Expression': {   'q1': [   'SKIP'],
+                                                                        'q2': [   'SKIP'],
+                                                                        'q3': [   'SKIP'],
+                                                                        'q4': [   'SKIP'],
+                                                                        'q5': [   'SKIP'],
+                                                                        'q6': [   'SKIP'],
+                                                                        'q7': [   'SKIP'],
+                                                                        'q8': [   'SKIP']},
+                                            'Instrumental Performance': {   'q1': [   'SKIP'],
+                                                                            'q2': [   'SKIP'],
+                                                                            'q3': [   'SKIP'],
+                                                                            'q4': [   'SKIP'],
+                                                                            'q5': [   'SKIP'],
+                                                                            'q6': [   'SKIP'],
+                                                                            'q7': [   'SKIP'],
+                                                                            'q8': [   'SKIP']},
+                                            'Instrumental Performance Appraisal': {   'q1': [   '1'],
+                                                                                      'q2': [   '1',
+                                                                                                'Yes, '
+                                                                                                'the '
+                                                                                                'guy '
+                                                                                                'was '
+                                                                                                'rude.'],
+                                                                                      'q3': [   '1'],
+                                                                                      'q4': [   '1'],
+                                                                                      'q5': [   '1'],
+                                                                                      'q6': [   '1'],
+                                                                                      'q7': [   '1'],
+                                                                                      'q8': [   '1']},
+                                            'Paralinguistic Decoding': {   'q1': [   'SKIP'],
+                                                                           'q2': [   '2'],
+                                                                           'q3': [   '2'],
+                                                                           'q4': [   '2'],
+                                                                           'q5': [   '2'],
+                                                                           'q6': [   '2'],
+                                                                           'q7': [   '2'],
+                                                                           'q8': [   '2',
+                                                                                     'Yes']},
+                                            'Paralinguistic Signals': {   'q1': [   'SKIP'],
+                                                                          'q2': [   'SKIP'],
+                                                                          'q3': [   'SKIP'],
+                                                                          'q4': [   'SKIP'],
+                                                                          'q5': [   'SKIP'],
+                                                                          'q6': [   'SKIP'],
+                                                                          'q7': [   'SKIP'],
+                                                                          'q8': [   'SKIP']},
+                                            'Social Context Appraisal': {   'q1': [   '0'],
+                                                                            'q2': [   '0'],
+                                                                            'q3': [   '0'],
+                                                                            'q4': [   '0'],
+                                                                            'q5': [   '0'],
+                                                                            'q6': [   '0'],
+                                                                            'q7': [   '0'],
+                                                                            'q8': [   '0',
+                                                                                      'No']}},
+                                        {},
+                                        {}],
+    'Case8-missing-6-subtest': [   {   'administrationdate': '0 years 0 months '
+                                                             '0 days',
+                                       'assessmentform': 'CAPs Record Form '
+                                                         '(Ages 7-18)',
+                                       'assessmenttype': 'caps',
+                                       'clientagedays': '0',
+                                       'clientagemonths': '3',
+                                       'clientageyears': '9',
+                                       'clientfirstname': '1-CAPs',
+                                       'clientgender': 'Male',
+                                       'clientlastname': 'Update-QA',
+                                       'password': '',
+                                       'reference': '',
+                                       'respondentname': 'Case8-missing-6-subtest',
+                                       'scoreform': False,
+                                       'submitformmessage': 'Are you ready to '
+                                                            'submit this form? '
+                                                            'Some of the '
+                                                            'information '
+                                                            'required for '
+                                                            'scoring has not '
+                                                            'been entered.\n'
+                                                            'Click YES to '
+                                                            'submit anyway. '
+                                                            'All of the '
+                                                            'information you '
+                                                            'have entered has '
+                                                            'been saved and '
+                                                            'you could come '
+                                                            'back to edit the '
+                                                            'form later.\n'
+                                                            'Click NO to '
+                                                            'continue editing '
+                                                            'the form.',
+                                       'username': '',
+                                       'validateform': True,
+                                       'validateformmessage': 'Too many '
+                                                              'responses are '
+                                                              'missing to '
+                                                              'permit scoring. '
+                                                              'Please provide '
+                                                              'the missing '
+                                                              'responses.'},
+                                   {   'Client Information': {   'Administration date': '0 '
+                                                                                        'years '
+                                                                                        '0 '
+                                                                                        'months '
+                                                                                        '0 '
+                                                                                        'days',
+                                                                 'Age in months': '3',
+                                                                 'Age in years': '9',
+                                                                 'Gender': 'Male',
+                                                                 'Grade': '6',
+                                                                 'Name': '1-CAPs '
+                                                                         'Update-QA',
+                                                                 'School': 'Test '
+                                                                           'School'},
+                                       'Examiner Information': {   'Examiner’s name': 'Ms. '
+                                                                                      'Smith',
+                                                                   'Examiner’s title': 'School '
+                                                                                       'Psychologist'}},
+                                   {},
+                                   {   'Affective Expression': {   'q1': [   'SKIP'],
+                                                                   'q2': [   'SKIP'],
+                                                                   'q3': [   'SKIP'],
+                                                                   'q4': [   'SKIP'],
+                                                                   'q5': [   'SKIP'],
+                                                                   'q6': [   'SKIP'],
+                                                                   'q7': [   'SKIP'],
+                                                                   'q8': [   'SKIP']},
+                                       'Instrumental Performance': {   'q1': [   'SKIP'],
+                                                                       'q2': [   'SKIP'],
+                                                                       'q3': [   'SKIP'],
+                                                                       'q4': [   'SKIP'],
+                                                                       'q5': [   'SKIP'],
+                                                                       'q6': [   'SKIP'],
+                                                                       'q7': [   'SKIP'],
+                                                                       'q8': [   'SKIP']},
+                                       'Instrumental Performance Appraisal': {   'q1': [   'SKIP'],
+                                                                                 'q2': [   'SKIP'],
+                                                                                 'q3': [   'SKIP'],
+                                                                                 'q4': [   'SKIP'],
+                                                                                 'q5': [   'SKIP'],
+                                                                                 'q6': [   'SKIP'],
+                                                                                 'q7': [   'SKIP'],
+                                                                                 'q8': [   'SKIP']},
+                                       'Paralinguistic Decoding': {   'q1': [   'SKIP'],
+                                                                      'q2': [   'SKIP'],
+                                                                      'q3': [   'SKIP'],
+                                                                      'q4': [   'SKIP'],
+                                                                      'q5': [   'SKIP'],
+                                                                      'q6': [   'SKIP'],
+                                                                      'q7': [   'SKIP'],
+                                                                      'q8': [   'SKIP']},
+                                       'Paralinguistic Signals': {   'q1': [   'SKIP'],
+                                                                     'q2': [   'SKIP'],
+                                                                     'q3': [   'SKIP'],
+                                                                     'q4': [   'SKIP'],
+                                                                     'q5': [   'SKIP'],
+                                                                     'q6': [   'SKIP'],
+                                                                     'q7': [   'SKIP'],
+                                                                     'q8': [   'SKIP']},
+                                       'Social Context Appraisal': {   'q1': [   'SKIP'],
+                                                                       'q2': [   'SKIP'],
+                                                                       'q3': [   'SKIP'],
+                                                                       'q4': [   'SKIP'],
+                                                                       'q5': [   'SKIP'],
+                                                                       'q6': [   'SKIP'],
+                                                                       'q7': [   'SKIP'],
+                                                                       'q8': [   'SKIP']}},
+                                   {},
+                                   {}]}
+
+directionTextList = {   'CAPs Record Form (Ages 7-18)': {   'Directions': 'The Clinical Assessment '
+                                                      'of Pragmatics (CAPs) is '
+                                                      'a norm-referenced '
+                                                      'video-based pragmatic '
+                                                      'language battery of '
+                                                      'tests for children and '
+                                                      'young adults ages 7 '
+                                                      'through 18 years. It is '
+                                                      'composed of four '
+                                                      'examples and six '
+                                                      'subtests.<br><br>You '
+                                                      'can use this digital '
+                                                      'Record Form to record '
+                                                      'the examinee’s '
+                                                      'responses for each item '
+                                                      'and determine the item '
+                                                      'score. After the form '
+                                                      'is complete, you may '
+                                                      'select “Validate Form” '
+                                                      'to calculate the '
+                                                      'scores.<br><br>Alternatively, '
+                                                      'you may wish to only '
+                                                      'record the examinee’s '
+                                                      'responses to each item '
+                                                      'at this time. You can '
+                                                      'save the administration '
+                                                      'and come back at a '
+                                                      'later time to determine '
+                                                      'item scores and '
+                                                      'complete the online '
+                                                      'scoring.<br><br>NOTE: '
+                                                      'You must administer and '
+                                                      'enter responses for at '
+                                                      'least three or more '
+                                                      'subtests to receive '
+                                                      'scores using this '
+                                                      'program. If only '
+                                                      'administering one or '
+                                                      'two subtests, no scores '
+                                                      'will be calculated. '
+                                                      'Administering all 6 '
+                                                      'CAPs subtests is '
+                                                      'recommended to gain the '
+                                                      'most insight into the '
+                                                      'client’s pragmatic '
+                                                      'language skills.\n'
+                                                      '                        '}}
+
+questionTextList = {}
+
+reports = [   {   'description': 'None',
+        'forms': [   'CAPs Sample',
+                     'Case1-6-subtest',
+                     'Case2-missing-2-subtest',
+                     'Case4-missing-2-subtest-item'],
+        'reference': 'caps_progress_4forms-warning1.pdf',
+        'report type': 'Progress',
+        'title': 'Progress report CAPs 4 forms-warning1'},
+    {   'description': 'None',
+        'forms': [   'Case1-6-subtest',
+                     'Case3-missing-3-subtest',
+                     'Case4-missing-2-subtest-item',
+                     'Case5-missing-1-subtest-item'],
+        'reference': 'caps_progress_4forms-warning2.pdf',
+        'report type': 'Progress',
+        'title': 'Progress report CAPs 4 forms-warning2'},
+    {   'description': 'None',
+        'forms': [   'Case2-missing-2-subtest',
+                     'Case3-missing-3-subtest',
+                     'Case5-missing-1-subtest-item'],
+        'reference': 'caps_progress_3forms-warning.pdf',
+        'report type': 'Progress',
+        'title': 'Progress report CAPs 3 forms-warning'},
+    {   'description': 'None',
+        'forms': ['Case2-missing-2-subtest', 'Case4-missing-2-subtest-item'],
+        'reference': 'caps_progress_2forms-warning.pdf',
+        'report type': 'Progress',
+        'title': 'Progress report CAPs 2 forms-warning'},
+    {   'description': 'None',
+        'forms': ['CAPs Sample', 'Case1-6-subtest'],
+        'reference': 'caps_progress_2forms-no-warning.pdf',
+        'report type': 'Progress',
+        'title': 'Progress report CAPs 2 forms-no-warning'}]
+
